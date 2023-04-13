@@ -1,6 +1,6 @@
 {
   "name": "code-push",
-  "version": "4.1.0",
+  "version": "3.1.5",
   "description": "Management SDK for the CodePush service",
   "main": "script/index.js",
   "types": "script/index.d.ts",
@@ -23,22 +23,21 @@
   "license": "MIT",
   "homepage": "https://microsoft.github.io/code-push",
   "dependencies": {
-    "appcenter-file-upload-client": "0.1.0",
     "recursive-fs": "^2.1.0",
     "slash": "^3.0.0",
-    "superagent": "^8.0.0",
-    "superagent-proxy": "^3.0.0",
+    "superagent": "^5.2.1",
+    "superagent-proxy": "^2.0.0",
     "yazl": "^2.5.1"
   },
   "devDependencies": {
-    "@types/mocha": "^9.0.0",
-    "@types/node": "^14.0.27",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.0",
     "@types/slash": "^3.0.0",
-    "@types/superagent": "^4.1.13",
+    "@types/superagent": "^4.1.4",
     "@types/yazl": "^2.4.2",
-    "mocha": "^9.2.0",
-    "shx": "^0.3.4",
-    "superagent-mock": "^4.0.0",
-    "typescript": "^4.4.3"
+    "mocha": "^7.1.1",
+    "shx": "^0.3.2",
+    "superagent-mock": "^3.7.0",
+    "typescript": "^3.8.3"
   }
 }
